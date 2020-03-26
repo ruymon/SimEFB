@@ -9,7 +9,7 @@
   <body>
     <script>
     // similar behavior as an HTTP redirect
-    window.location.replace("app/api.php");
+    window.location.replace("app/cartas.php");
     </script>
   </body>
 </html>

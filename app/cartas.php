@@ -32,8 +32,26 @@
               // Get Info from API
               $content = file_get_contents("http://www.aisweb.aer.mil.br/api/?apiKey={$AW_API_KEY}&apiPass={$AW_API_PASS}&area=cartas");
               //Display API info.
-              echo $content
-          ?>
+            $xml= new DOMDocument;
+            $xml->load( "http://www.aisweb.aer.mil.br/api/?apiKey=1888142779&apiPass=9e3f7b84-5a48-11ea-9f40-00505680c1b4&area=cartas" );
+
+            if (!$xml) {
+              echo "Erro ao abrir arquivo!";
+              exit;
+            }
+
+          $ver = simplexml_import_dom($xml);
+
+          foreach ($ver as $valor) {
+          echo $valor->item->id;
+          echo "<br>";
+          echo $valor->item->epecie;
+          echo "<br>";
+          echo $valor->item->tipo;
+          echo "<br>";
+          echo $valor->item->tipo_descr;
+          }
+      ?>
 
       </b>
 
