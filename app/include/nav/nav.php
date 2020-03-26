@@ -1,5 +1,5 @@
 <div class="sh-logopanel">
-      <img src="/simefb/img/simefb_logo.png" height="90px" width="100px">
+      <img src="/simefb/img/simefb_logo.png" height="95px" width="95px">
       <a id="navicon" href="/img/api_aisweb.png" class="sh-navicon d-none d-xl-block"><i class="icon ion-navicon"></i></a>
       <a id="naviconMobile" href="" class="sh-navicon d-xl-none"><i class="icon ion-navicon"></i></a>
 </div>

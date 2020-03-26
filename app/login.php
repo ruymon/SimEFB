@@ -22,7 +22,7 @@
           </div><!-- form-group -->
           <div class="form-group">
             <label class="form-control-label">Senha:</label>
-            <input type="password" name="password" placeholder="Enter your password" class="form-control">
+            <input type="password" name="password" placeholder="Insira sua senha:" class="form-control">
           </div><!-- form-group -->
           <div class="form-group">
             <a href="">Recuperar senha</a>
