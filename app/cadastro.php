@@ -10,26 +10,26 @@
     <div class="signpanel-wrapper">
       <div class="signbox signup">
         <div class="signbox-header">
-          <h2>Shamcey</h2>
-          <p class="mg-b-0">Responsive Bootstrap 4 Admin Template</p>
+          <img src="/simefb/img/simefb_logo.png" width="100px"></img>
+  
         </div><!-- signbox-header -->
         <div class="signbox-body">
           <div class="form-group">
             <label class="form-control-label">Email:</label>
-            <input type="email" name="email" class="form-control" placeholder="Type email address">
+            <input type="email" name="email" class="form-control" placeholder="Digite seu email">
           </div><!-- form-group -->
 
           <div class="row row-xs">
             <div class="col-sm">
               <div class="form-group">
-                <label class="form-control-label">Firstname:</label>
-                <input type="text" name="firstname" class="form-control" placeholder="Type firstname">
+                <label class="form-control-label">Nome:</label>
+                <input type="text" name="firstname" class="form-control" placeholder="Digite seu nome">
               </div><!-- form-group -->
             </div><!-- col -->
             <div class="col-sm">
               <div class="form-group">
-                <label class="form-control-label">Lastname:</label>
-                <input type="text" name="lastname" class="form-control" placeholder="Type lastname">
+                <label class="form-control-label">Sobrenome:</label>
+                <input type="text" name="lastname" class="form-control" placeholder="Digite seu sobrenome">
               </div><!-- form-group -->
             </div><!-- col -->
           </div><!-- row -->
@@ -37,27 +37,27 @@
           <div class="row row-xs">
             <div class="col-sm">
               <div class="form-group">
-                <label class="form-control-label">Password:</label>
-                <input type="password" name="password" class="form-control" placeholder="Type password">
+                <label class="form-control-label">Senha:</label>
+                <input type="password" name="password" class="form-control" placeholder="Digite sua senha:">
               </div><!-- form-group -->
             </div><!-- col -->
             <div class="col-sm">
               <div class="form-group">
-                <label class="form-control-label">Confirm Password:</label>
-                <input type="password" name="conpassword" class="form-control" placeholder="Retype password">
+                <label class="form-control-label">Confirme sua senha:</label>
+                <input type="password" name="conpassword" class="form-control" placeholder="Confirme sua senha:">
               </div><!-- form-group -->
             </div><!-- col -->
           </div><!-- row -->
 
           <div class="form-group">
-            <label class="form-control-label">Company Name:</label>
-            <input type="text" name="company" class="form-control" placeholder="Type company name">
+            <label class="form-control-label">Usuário:</label>
+            <input type="text" name="company" class="form-control" placeholder="Escolha um usuário">
           </div><!-- form-group -->
 
-          <div class="form-group mg-b-20 tx-12">By clicking Sign Up button below you agree to our <a href="">Terms of Use</a> and our <a href="">Privacy Policy</a></div>
+          <div class="form-group mg-b-20 tx-12">Ao clicar em "Cadastrar" você concorda com os <a href="">Termos de Uso</a> e a <a href="">Política de Privacidade.</a></div>
 
-          <button type="submit" class="btn btn-success btn-block">Sign Up</button>
-          <div class="tx-center bd pd-10 mg-t-40">Already a member? <a href="page-signin.html">Sign In</a></div>
+          <button type="submit" class="btn btn-success btn-block">Cadastrar</button>
+          <div class="tx-center bd pd-10 mg-t-40">Já tem conta? <a href="login.php">Login</a></div>
         </div><!-- signbox-body -->
       </div><!-- signbox -->
     </div><!-- signpanel-wrapper -->
@@ -70,4 +70,11 @@
     
   
   </body>
+  
+  <?php
+
+    include 'include/footer.php';
+
+  ?>
+
 </html>

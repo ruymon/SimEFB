@@ -34,6 +34,13 @@
     ?>
     
   </body>
+
+  <?php
+
+    include 'include/footer.php';
+
+    ?>
+
 </html>
 
 

@@ -13,8 +13,7 @@
     <div class="signpanel-wrapper">
       <div class="signbox">
         <div class="signbox-header">
-          <h2>SimEFB</h2>
-          <p class="mg-b-0">Sim Eletronic Flight Bag.</p>
+        <img src="/simefb/img/simefb_logo.png" width="100px"></img>
         </div><!-- signbox-header -->
         <div class="signbox-body">
           <div class="form-group">
@@ -28,7 +27,7 @@
           <div class="form-group">
             <a href="">Recuperar senha</a>
           </div><!-- form-group -->
-          <button class="btn btn-success btn-block">Entrar</button>
+          <button class="btn btn-success btn-block" onclick="window.location.href='home.php'">Entrar</button>
           <div class="tx-center bg-white bd pd-10 mg-t-40"><a href="cadastro.php">Criar uma conta</a></div>
         </div><!-- signbox-body -->
       </div><!-- signbox -->
@@ -45,4 +44,11 @@
     
 
   </body>
+
+  <?php
+
+    include 'include/footer.php';
+
+  ?>
+
 </html>
