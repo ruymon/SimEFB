@@ -10,7 +10,9 @@
 <body>
   <!-- Includes NAV BAR -->
     <?php
-      include 'include/nav.php';
+      include 'include/nav/nav.php';
+
+      include 'include/nav/nav_aw.php';
     ?>
 
 <!-- PAGE START -->
