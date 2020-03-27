@@ -18,5 +18,5 @@
     <link href="../lib/perfect-scrollbar/css/perfect-scrollbar.css" rel="stylesheet">
 
     <!-- Style CSS -->
-    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../../css/style.css">
   </head>

@@ -4,15 +4,15 @@
 
   <!--Includes Default Header -->
     <?php
-      include 'include/head.php';
+      include '../include/head.php';
     ?>
 
 <body>
   <!-- Includes NAV BAR -->
     <?php
-      include 'include/nav/nav.php';
+      include '../include/nav/nav.php';
 
-      include 'include/nav/nav_aw.php';
+      include '../include/nav/nav_aw.php';
     ?>
 
 <!-- PAGE START -->
@@ -28,7 +28,7 @@
 
               //*
               //Includes API Details
-              include 'config/aisweb_key.php';
+              include '../config/aisweb_key.php';
 
               //AISWEB Charts
               // Get Info from API
@@ -76,7 +76,7 @@
 
     <?php
 
-        include 'include/script.php';
+        include '../include/script.php';
 
     ?>
     
@@ -84,7 +84,7 @@
 
   <?php
 
-include 'include/footer.php';
+include '../include/footer.php';
 
 ?>
 
