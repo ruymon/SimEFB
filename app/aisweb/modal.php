@@ -77,7 +77,7 @@ body {font-family: Arial, Helvetica, sans-serif;}
 <body>
 
 <!-- Trigger/Open The Modal -->
-<button id="pdfbtn">Visualizar</button>
+<button class="btn btn-primary btn-lg active" id="pdfbtn"><ion-icon name="document-text-sharp"></ion-icon><br>Visualizar</button>
 
 <!-- The Modal -->
 <div id="pdfview" class="modal">
@@ -86,10 +86,13 @@ body {font-family: Arial, Helvetica, sans-serif;}
   <div class="modal-content">
     <span class="close">&times;</span>
     <iframe id="carta" src="http://ww1.jeppesen.com/documents/aviation/notices-alerts/chart-alert/SBGR/SBGRfiles.pdf" width="990px" height="900px"></iframe>
+<br>
+<br>
+    <button class="btn btn-success"><ion-icon name="download-sharp"></ion-icon><br>Download</button>
     <br>
+    <button class="btn btn-danger"><ion-icon name="print-sharp"></ion-icon><br>Imprimir</button>
     <br>
-    <button class="btn btn-danger">Fechar</button>
-    <button class="btn btn-success">Download</button> 
+    <button class="btn btn-warning"><ion-icon name="document-attach-sharp"></ion-icon><br>Gerar Link</button>
 
   </div>
 

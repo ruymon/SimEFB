@@ -4,14 +4,14 @@
 
   <!--Includes Default Header -->
     <?php
-      include 'include/head.php';
+      include '../include/head.php';
     ?>
 
 <body>
   <!-- Includes NAV BAR -->
     <?php
-      include 'include/nav/nav.php';
-      include 'include/nav/nav_default.php';
+      include '../include/nav/nav.php';
+      include '../include/nav/nav_default.php';
     ?>
 
 <!-- PAGE START -->
@@ -29,7 +29,7 @@
 
     <?php
 
-        include 'include/script.php';
+        include '../include/script.php';
 
     ?>
     
@@ -37,7 +37,7 @@
 
   <?php
 
-    include 'include/footer.php';
+    include '../include/footer.php';
 
     ?>
 

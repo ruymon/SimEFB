@@ -11,22 +11,23 @@
 
       <!-- Nav Item 1 -->
         <li class="nav-item">
-          <a href="/simefb/app/home.php" class="nav-link">
+          <a href="../modules/home.php" class="nav-link">
             <ion-icon name="home-sharp"></ion-icon>
-            <span>Home</span>
+            <span>Painel SimEFB</span>
           </a>
         </li>
       <!-- End Nav Item 1 -->
 
       <!-- Nav Item 2 -->
       <li class="nav-item">
-        <a href="/simefb/app/cartas.php" class="nav-link">
+        <a href="../aisweb/cartas.php" class="nav-link">
           <ion-icon name="map-sharp"></ion-icon>
           <span>   AISWEB - Cartas</span>
         </a>
         </li>
       <!-- End Nav Item 2 -->
 
+  
       <!-- Nav Item 3 -->
       <li class="nav-item">
         <a href="#" class="nav-link">
@@ -35,6 +36,24 @@
         </a>
         </li>
       <!-- End Nav Item 3 -->
+
+      <!-- Nav Item 4 -->
+      <li class="nav-item">
+        <a href="../modules/webeye.php" class="nav-link">
+        <ion-icon name="earth-sharp"></ion-icon>
+          <span>   IVAO - Webeye</span>
+        </a>
+        </li>
+      <!-- End Nav Item 4 -->
+
+      <!-- Nav Item 5 -->
+      <li class="nav-item">
+        <a href="../modules/ivao_fpl.php" class="nav-link">
+        <ion-icon name="airplane-sharp"></ion-icon>
+          <span>   IVAO - FPL</span>
+        </a>
+        </li>
+      <!-- End Nav Item 5 -->
         
     
         

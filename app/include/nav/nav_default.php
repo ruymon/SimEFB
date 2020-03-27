@@ -10,7 +10,7 @@
         <div class="input-group">
           <input type="search" class="form-control" placeholder="Search">
           <span class="input-group-btn">
-            <button class="btn"><i class="fa fa-search"></i></button>
+            <button class="btn"><ion-icon name="search-sharp"></ion-icon></button>
           </span><!-- input-group-btn -->
         </div><!-- input-group -->
         <div class="sh-pagetitle-left">

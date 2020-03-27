@@ -2996,6 +2996,11 @@ tbody.collapse.show {
 }
 .nav-tabs .nav-item {
   margin-bottom: -1px;
+  padding: 5px;
+}
+.nav-tabs .nav-item .nav_icon {
+  padding: 5px;
+  margin-right: 2px;
 }
 .nav-tabs .nav-link {
   border: 1px solid transparent;
@@ -3015,6 +3020,7 @@ tbody.collapse.show {
   color: #495057;
   background-color: #D8DCE3;
   border-color: #ddd #ddd #D8DCE3;
+  padding-right: 5px;
 }
 .nav-tabs .dropdown-menu {
   margin-top: -1px;

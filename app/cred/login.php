@@ -3,7 +3,7 @@
 
 <?php
 
-  include 'include/head.php';
+  include '../include/head.php';
 
 ?>
 
@@ -27,7 +27,7 @@
           <div class="form-group">
             <a href="">Recuperar senha</a>
           </div><!-- form-group -->
-          <button class="btn btn-success btn-block" onclick="window.location.href='home.php'">Entrar</button>
+          <button class="btn btn-success btn-block" onclick="window.location.href='../modules/home.php'">Entrar</button>
           <div class="tx-center bg-white bd pd-10 mg-t-40"><a href="cadastro.php">Criar uma conta</a></div>
         </div><!-- signbox-body -->
       </div><!-- signbox -->
@@ -37,7 +37,7 @@
 
   <?php
 
-    include 'include/script.php';
+    include '../include/script.php';
 
   ?>
 
@@ -47,7 +47,7 @@
 
   <?php
 
-    include 'include/footer.php';
+    include '../include/footer.php';
 
   ?>
 

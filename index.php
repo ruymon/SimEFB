@@ -10,7 +10,7 @@
   <body>
     <script>
     // similar behavior as an HTTP redirect
-    window.location.replace("app/login.php");
+    window.location.replace("app/cred/login.php");
     </script>
   </body>
 </html>

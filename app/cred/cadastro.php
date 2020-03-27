@@ -2,7 +2,7 @@
 <html lang="pt-BR">
   
     <?php
-        include 'include/head.php';
+        include '../include/head.php';
     ?>
 
   <body class="bg-gray-900">
@@ -65,7 +65,7 @@
               <!-- PAGE END HERE -->
 
     <?php
-        include 'include/script.php';
+        include '../include/script.php';
     ?>
     
   
@@ -73,7 +73,7 @@
   
   <?php
 
-    include 'include/footer.php';
+    include '../include/footer.php';
 
   ?>
 
