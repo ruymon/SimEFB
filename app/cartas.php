@@ -35,7 +35,8 @@
               $content = file_get_contents("http://www.aisweb.aer.mil.br/api/?apiKey={$AW_API_KEY}&apiPass={$AW_API_PASS}&area=cartas");
               //Display API info.
             $xml= new DOMDocument;
-            $xml->load( "http://www.aisweb.aer.mil.br/api/?apiKey=1888142779&apiPass=9e3f7b84-5a48-11ea-9f40-00505680c1b4&area=cartas" );
+            $search = htmlspecialchars($_POST['search']); 
+            $xml->load( "http://www.aisweb.aer.mil.br/api/?apiKey={$AW_API_KEY}&apiPass={$AW_API_PASS}&area=cartas&icaoCode={$search}" );
 
             if (!$xml) {
               echo "Erro ao abrir arquivo!";
@@ -52,8 +53,15 @@
           echo $valor->item->tipo;
           echo "<br>";
           echo $valor->item->tipo_descr;
+           echo "<br>";
+          echo $valor->item->nome;
+          echo "<br>";
+
+          $pdf = "https://docs.google.com/viewer?url=http://ais.decea.gov.br/download/?arquivo={$valor->item->id}&amp;";
+          echo $pdf;
           }
       ?>
+
 
       </b>
 

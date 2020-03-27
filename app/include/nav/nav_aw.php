@@ -9,12 +9,14 @@
     
 
       <div class="sh-pagetitle">
-        <div class="input-group">
-          <input type="search" class="form-control" placeholder="Search">
+        <form action="#" method="post">
+          <div class="input-group">
+          <input type="search" name="search" class="form-control" placeholder="ICAO">
           <span class="input-group-btn">
             <button class="btn"><i class="fa fa-search"></i></button>
           </span><!-- input-group-btn -->
         </div><!-- input-group -->
+        </form>
         <div class="sh-pagetitle-left">
           <div class="sh-aisweb-icon"><img src="/simefb/img/api_aisweb.png"height="80px"></div>
           <div class="sh-pagetitle-title">
