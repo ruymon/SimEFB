@@ -1,8 +1,8 @@
 <div class="sh-mainpanel">
       <div class="sh-breadcrumb">
         <nav class="breadcrumb">
-            <a class="breadcrumb-item" href="../home.php">SimEFB</a>
-            <a class="breadcrumb-item" href="#">AISWEB</a>
+            <a class="breadcrumb-item" href="../modules/home.php">SimEFB</a>
+            <a class="breadcrumb-item" href="../aisweb/cartas.php">AISWEB</a>
           <span class="breadcrumb-item active">Cartas</span>
         </nav>
       </div><!-- sh-breadcrumb -->
